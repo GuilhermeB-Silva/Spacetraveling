@@ -1,0 +1,38 @@
+.post_image{
+    width:100%;
+}
+
+.content{
+    max-width:700px;
+    margin:0 auto;
+
+    .post_title{
+        font-size:48px;
+        color:var(--heading);
+        margin:5rem 0 1.5rem;
+    }
+
+    .post_info{
+        color:var(--info);
+        display:flex;
+        align-items:center;
+
+        span:nth-child(2){
+            margin: 0 2rem;
+        }
+
+    }
+
+    .post_subtitle{
+        margin-top:3rem;
+        color:var(--heading);
+
+    }
+
+    .dangerous_html{
+        color:var(--body);
+        margin-top:2rem;
+        line-height:2rem;
+        margin-bottom:5rem;
+    }
+}

@@ -1,0 +1,49 @@
+.content{
+    width:100%;
+    max-width:700px;
+    margin:0 auto 5rem;
+    
+    a{
+        text-decoration:none;
+
+        .post{
+    
+            margin-bottom:50px;
+        
+            .header_title{
+                color:var(--heading);
+                font-size:28px;
+            }
+        
+            .header_subtitle{
+                color:var(--body);
+                font-size:18px;
+                margin:5px 0 25px;
+            }
+        
+            .post_details{
+                color:var(--body);
+        
+                .details_date{
+                    margin-right: 2rem;
+            
+                }
+            
+                .details_user{
+        
+                }
+            }
+    
+    
+        }        
+    }
+
+
+
+
+
+
+
+
+
+}
